@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?><ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -46,9 +45,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Gender"
-            android:layout_margintop="20dp"
-            android:textSize="24sp"
-            />
+            android:layout_marginTop="20dp"
+            android:textSize="24sp" />
 
         <RadioGroup
             android:id="@+id/radioGroupGender"
@@ -69,44 +67,35 @@
                 android:text="Female" />
         </RadioGroup>
 
-
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Give Raiting"
-                android:textSize="24sp"
-                android:layout_marginBottom="8dp"/>
-
-            <RatingBar
-                android:id="@+id/ratingBar"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:numStars="5"
-                android:stepSize="1"/>
-
-            <SeekBar
-                android:id="@+id/seekBar"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"/>
-
-        <FrameLayout
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:minHeight="48dp"
-            android:minWidth="48dp">
+            android:text="Give Rating"
+            android:textSize="24sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
 
-            <Switch
-                android:id="@+id/switchEnableNotifications"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Enable Notifications"
-                android:textSize="20sp"
-                android:layout_marginTop="16dp"/>
-        </FrameLayout>
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="1" />
 
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" />
 
+        <Switch
+            android:id="@+id/switchEnableNotifications"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enable Notifications"
+            android:textSize="20sp"
+            android:layout_marginTop="16dp"
+            android:padding="16dp" />
 
         <CheckBox
             android:id="@+id/checkBoxTerms"
@@ -119,6 +108,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Submit" />
+
     </LinearLayout>
 
 </ScrollView>
